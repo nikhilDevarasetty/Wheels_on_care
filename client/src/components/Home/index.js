@@ -48,11 +48,3 @@ const Home = () => {
 };
 
 export default Home;
-
-/* <div className={styles.routes}>
-          <div>Home</div>
-          <div to="\about">About</div>
-          <div to="\services">Services</div>
-          <div to="\contact">Contact</div>
-        </div> */
-/* <img src={backImg} alt="background_image" className={styles.bcgimage} /> */
