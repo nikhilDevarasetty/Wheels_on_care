@@ -1,3 +1,42 @@
 .app {
   height: 100vh;
 }
+
+.navbar {
+  background-color: #2d3439;
+  height: 15%;
+}
+
+.mainbody {
+  height: 85%;
+}
+
+.route {
+  color: white;
+  float: right;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  margin-right: 3%;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.logo {
+  height: 80%;
+  width: 23%;
+  margin-top: 10px;
+}
+
+.logodiv {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  margin-left: 3rem;
+  /* border: 2px solid white; */
+}
+
+.phone {
+  width: 70%;
+  height: 70%;
+  margin-left: 20px;
+}
