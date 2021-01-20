@@ -1,6 +1,6 @@
 .home {
   height: 100%;
-  border: 2px solid white;
+  overflow: auto;
   background: url(../../assets/homebcg2.jpg) no-repeat;
   background-size: 100% 100%;
   opacity: 0.8;
@@ -30,8 +30,8 @@
 
 .button {
   padding: 15px 30px;
-  border: 2px solid #428a5c;
-  background-color: #428a5c;
+  border: none;
+  background-color: #7a2eb0;
   cursor: pointer;
   color: white;
   margin-left: 1rem;

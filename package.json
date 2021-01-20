@@ -1,7 +1,6 @@
 {
   "name": "vehicle_breackdown_assistance",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
   "bugs": {
     "url": "https://github.com/nikhilDevarasetty/Wheels_on_care/issues"
   },
-  "homepage": "https://github.com/nikhilDevarasetty/Wheels_on_care#readme"
+  "homepage": "https://github.com/nikhilDevarasetty/Wheels_on_care#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {},
+  "description": ""
 }

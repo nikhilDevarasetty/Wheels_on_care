@@ -1,7 +1,9 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import styles from "./style.module.css";
 
 const Home = () => {
+  const history = useHistory();
   return (
     <div className={styles.home}>
       <div className={styles.nameBlock}>
@@ -11,7 +13,12 @@ const Home = () => {
           service
         </div>
         <div className={styles.buttons}>
-          <button className={styles.button}>Services</button>
+          <button
+            className={styles.button}
+            onClick={() => history.push("/services")}
+          >
+            Services
+          </button>
           <button className={styles.button}>call us</button>
         </div>
       </div>
@@ -20,29 +27,3 @@ const Home = () => {
 };
 
 export default Home;
-
-{
-  /* <div className={styles.navBar}>
-        <Router>
-          <Link to="/contact" className={styles.route}>
-            Contact
-          </Link>
-          <Link to="/services" className={styles.route}>
-            Services
-          </Link>
-          <Link to="/about" className={styles.route}>
-            About
-          </Link>
-          <Link to="/" className={styles.route}>
-            Home
-          </Link>
-
-          <Switch>
-            <Route path="/" />
-            <Route path="/about" component={About} />
-            <Route path="/services" component={Services} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
-        </Router>
-      </div> */
-}

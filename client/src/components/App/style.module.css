@@ -9,6 +9,7 @@
 
 .mainbody {
   height: 85%;
+  overflow: auto;
 }
 
 .route {
